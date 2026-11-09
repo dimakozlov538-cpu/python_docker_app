@@ -27,7 +27,7 @@ npx localtunnel --port 80
 ```
 Вставьте ваш внешний IP (можно узнать через `curl ifconfig.me`) в поле **Tunnel Password** на открывшейся странице.
 
-## 🧹 Как убрать за собой
+Как убрать за собой
 Чтобы полностью остановить проект и освободить ресурсы:
 ```bash
 docker stop web-container && docker rm web-container
